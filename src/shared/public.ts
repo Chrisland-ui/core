@@ -33,3 +33,13 @@ export {
   DEFAULT_MAINNET_SAFETY_THRESHOLD_XLM,
   MAINNET_NETWORK_PASSPHRASE,
 } from "./mainnetSafety";
+
+export {
+  getRuntimeContext,
+  assertNotBrowser,
+  assertNotServer,
+  assertConfigSafe,
+  SERVER_ONLY_GLOBALS,
+  BROWSER_ONLY_GLOBALS,
+} from "./environment";
+export type { RuntimeContext } from "./environment";
